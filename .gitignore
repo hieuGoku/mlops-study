@@ -1,0 +1,9 @@
+__pycache__
+mlops-env/
+logging/examples
+logging/outputs
+logging/MLOps Study
+logging/wandb
+note.txt
+.dvc/
+ml/checkpoints/test/

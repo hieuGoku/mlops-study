@@ -1,0 +1,12 @@
+http://download.pytorch.org/whl/cpu/torch-1.13.1%2Bcpu-cp38-cp38-win_amd64.whl
+pytorch-lightning==1.7.6
+torchmetrics==0.11.4
+Pillow
+torchvision==0.14.1
+hydra-core
+hydra_colorlog
+dvc
+dvc[gdrive]
+scipy
+fastapi
+uvicorn

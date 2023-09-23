@@ -1,0 +1,15 @@
+defaults:
+  - _self_
+  - logger: default
+  - data_module: default
+  - model: default
+  - trainer: default
+  - callbacks: default
+  - onnx: default
+  - override hydra/job_logging: custom
+  - override hydra/hydra_logging: colorlog
+
+hydra:
+  run:
+    # dir: ./logging/outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+    dir: ./logging/outputs/${logger.name}

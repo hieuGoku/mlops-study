@@ -1,0 +1,4 @@
+name: TinyVGG
+input_shape: 3
+hidden_units: 10
+output_shape: 3
