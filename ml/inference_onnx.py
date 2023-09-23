@@ -8,7 +8,7 @@ from ml.utils import timing
 class Food3ONNXPredictor:
     '''Predictor class for the Food3 classifier.'''
     def __init__(self, model_path) -> None:
-        self.ort_session = ort.InferenceSession(model_path)
+        self.ort_session = ort.InferenceSession(model_path, providers=['CPUExecutionProvider'])
         self.lables = ['pizza', 'steak', 'sushi']
 
     @timing
