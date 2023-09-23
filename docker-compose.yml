@@ -1,0 +1,15 @@
+version: "3.9"
+name: dockerized-mlops-study
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mlops_container
+
+    volumes:
+      - ./app.py:/code/app.py
+    restart: always
+    ports:
+      - "8000:7979"
