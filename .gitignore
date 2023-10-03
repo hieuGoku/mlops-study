@@ -7,4 +7,4 @@ logging/wandb
 note.txt
 .dvc/
 ml/checkpoints/test/
-ml/weights/pt
+ml/weights/pt/test.pt
